@@ -1,4 +1,6 @@
-import './App.css'
+import "./App.css";
+
+import Header from "./components/Header";
 
 function App() {
   return (  
@@ -6,24 +8,6 @@ function App() {
     <Header/>
     </>
   )
-}
-
-function Header(){
-  return(
-    <>
-    <div>
-      <img src="" alt="" />
-    </div>
-    <ul>
-      <li>Home</li>
-      <li>How it Works</li>
-      <li>Why Flystack</li>
-      <li>Pricing</li>
-      <li>Faq</li>
-    </ul>
-    </>
-  )
-
 }
 
 export default App
