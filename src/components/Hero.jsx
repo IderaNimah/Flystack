@@ -40,6 +40,30 @@ function Hero(){
           imageAlt="Vector Image"
           className="emoji-image-emoji-5"
         />
+
+       <Emoji
+          imageSrc="./src/assets/Group 4.png"
+          imageAlt="Vector Image"
+          className="emoji-image-emoji-6"
+        />
+
+       <Emoji
+          imageSrc="./src/assets/Group 3.png"
+          imageAlt="Vector Image"
+          className="emoji-image-emoji-7"
+        />
+
+        <Emoji
+          imageSrc="./src/assets/Group 1.png"
+          imageAlt="Vector Image"
+          className="emoji-image-emoji-8"
+        />
+
+        <Emoji
+          imageSrc="./src/assets/Group 2.png"
+          imageAlt="Vector Image"
+          className="emoji-image-emoji-9"
+        />
       </div>
          </>
  )

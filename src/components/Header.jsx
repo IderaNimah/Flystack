@@ -6,11 +6,11 @@ function Header(){
       </div>
       <div className="list">
       <ul>
-        <li>Home</li>
-        <li>How it Works</li>
-        <li>Why Flystack</li>
-        <li>Pricing</li>
-        <li>Faq</li>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">How it Works</a></li>
+        <li><a href="#">Why Flystack</a></li>
+        <li><a href="#">Pricing</a></li>
+        <li><a href="#">Faq</a></li>
       </ul>
       </div>
       <div className="headerbutton">
