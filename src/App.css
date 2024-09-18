@@ -1,45 +1,43 @@
-*{
-  margin: 0;  
+* {
+  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-body{
+body {
   background-color: black;
   color: white;
 }
-header{
+header {
   margin-top: 23px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 1400px;
-    margin: auto;
-    margin-top: 45px;
-   
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1400px;
+  margin: auto;
+  margin-top: 45px;
 }
 
-.logo img{
+.logo img {
   max-width: 165px;
-  
 }
 
-.logo span img{
+.logo span img {
   font-size: 40px;
 }
-.list ul{
+.list ul {
   display: flex;
- list-style-type: none;
- align-items: center;
- display: flex;
- gap: 55px;
- font-size: 24px;
+  list-style-type: none;
+  align-items: center;
+  display: flex;
+  gap: 55px;
+  font-size: 24px;
 }
-.headerbutton{
- display: flex;
- /* margin-right: -480px; */
+.headerbutton {
+  display: flex;
+  /* margin-right: -480px; */
 }
 
-.headerbutton button{
+.headerbutton button {
   outline: none;
   border: 2px solid rgba(36, 255, 0, 1);
   padding: 3px;
@@ -53,23 +51,82 @@ header{
 }
 
 /*  */
-.Hero h1{
- text-align: center;
- margin: auto;
- margin-top: 28px;
- max-width: 1200px;
- font-size: 80px;
+.SubHero h1 {
+  text-align: center;
+  margin: auto;
+  margin-top: 28px;
+  max-width: 1200px;
+  font-size: 80px;
 }
-.underlined{
+.underlined {
   text-decoration: underline;
 }
-.Hero p{
+.SubHero p {
   margin: auto;
-  margin-top:20px;
+  margin-top: 20px;
   max-width: 689px;
   font-size: 30px;
 }
 
-.Hero p+p{
+.SubHero p + p {
   max-width: 444px;
+}
+
+/*  */
+.Hero{
+/* position: relative;
+left: 650px; */
+
+}
+.Hero img {
+  
+  position: absolute;
+    top: 424px;
+    left: 485px;
+}
+
+
+.box{
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 523px;
+  height: 470px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  background-color:rgba(36, 255, 0, 1) ;
+}
+
+.emoji{
+  position: relative;
+}
+
+.emoji-image-emoji-1{
+  position: absolute;
+  left: 290px;
+  top: -381px;
+}
+
+.emoji-image-emoji-4{
+  position: absolute;
+    top: -130px;
+    left: 220px;
+}
+
+.emoji-image-emoji-2{
+  position: absolute;
+    left: 1150px;
+    top: -74px;
+}
+
+.emoji-image-emoji-5{
+  position: absolute;
+    top: -411px;
+    left: 1100px;
+}
+
+.emoji-image-emoji-3{
+  position: absolute;
+    top: -311px;
+    left: 1238px;
 }
