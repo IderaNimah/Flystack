@@ -1,3 +1,5 @@
+import {Link} from "react-router-dom";
+
 function Header(){
     return(
       <header>
@@ -6,11 +8,11 @@ function Header(){
       </div>
       <div className="list">
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">How it Works</a></li>
-        <li><a href="#">Why Flystack</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Faq</a></li>
+        <li><Link to ="/HowItWorks">Home</Link></li>
+        <li><Link to ="/">How it Works</Link></li>
+        <li><Link to ="/">Why Flystack</Link></li>
+        <li><Link to ="/">Pricing</Link></li>
+        <li><Link to ="/">Faq</Link></li>
       </ul>
       </div>
       <div className="headerbutton">
