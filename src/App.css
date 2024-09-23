@@ -1,3 +1,5 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
 * {
   margin: 0;
   padding: 0;
@@ -6,15 +8,17 @@
 body {
   background-color: black;
   color: white;
+  font-family: "Poppins", system-ui;
 }
 header {
-  margin-top: 23px;
+  background: black;
+ 
+  padding: 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1400px;
+  max-width: 100%;
   margin: auto;
-  margin-top: 45px;
 }
 
 .logo img {
@@ -56,12 +60,13 @@ header {
 }
 
 /*  */
+
 .SubHero h1 {
   text-align: center;
   margin: auto;
   margin-top: 28px;
   max-width: 1200px;
-  font-size: 80px;
+  font-size: 63px;
 }
 .underlined {
   text-decoration: underline;
@@ -70,21 +75,16 @@ header {
   margin: auto;
   margin-top: 20px;
   max-width: 689px;
-  font-size: 30px;
+  font-size: 23px;
 }
 
 .SubHero p + p {
   max-width: 444px;
 }
 
-/*  */
-.Hero {
-  /* position: relative;
-left: 650px; */
-}
 .Hero img {
   position: absolute;
-  top: 424px;
+  top: 417px;
   left: 485px;
 }
 
@@ -156,3 +156,11 @@ left: 650px; */
     left: 872px;
     top: -355px;
 }
+
+/*  */
+.Mainhow{
+  background: white;
+  height: 100vh;
+  color: black;
+}
+
