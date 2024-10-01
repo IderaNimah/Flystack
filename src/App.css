@@ -1,5 +1,4 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +11,7 @@ body {
 }
 header {
   background: black;
- 
+
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -36,10 +35,9 @@ header {
   gap: 55px;
   font-size: 24px;
 }
-.list ul a{
+.list ul a {
   text-decoration: none;
   color: rgba(255, 255, 255, 1);
-  ;
 }
 .headerbutton {
   display: flex;
@@ -151,16 +149,83 @@ header {
   left: 405px;
 }
 
-.emoji-image-emoji-9{
+.emoji-image-emoji-9 {
   position: absolute;
-    left: 872px;
-    top: -355px;
+  left: 872px;
+  top: -355px;
 }
 
 /*  */
-.Mainhow{
+.Mainhow {
   background: white;
   height: 100vh;
   color: black;
 }
 
+.img-text {
+  position: relative;
+}
+
+.img-text h1 {
+  position: absolute;
+  font-size: 40px;
+  top: 50px;
+  left: 505px;
+}
+
+.img-flex {
+  display: flex;
+  position: absolute;
+  top: 300px;
+  left: 256px;
+}
+
+.img-flex-text h1 {
+  max-width: 50%;
+  margin-left: 156px;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.img-flex-img img:nth-of-type(2) {
+  left: 237px;
+  position: absolute;
+  top: 52px;
+}
+
+.img-flex-img img:nth-of-type(3) {
+  left: 316px;
+  position: absolute;
+  top: 213px;
+}
+
+.img-flex-img img:nth-of-type(4) {
+  left: 150px;
+  position: absolute;
+  top: 99px;
+}
+
+.img-flex-img img:nth-of-type(5) {
+  left: 102px;
+  position: absolute;
+  top: 179px;
+}
+
+/*  */
+.img-flex-text img:nth-of-type(1) {
+  right: 417px;
+  position: absolute;
+  top: -19px;
+}
+
+.img-flex-text img:nth-of-type(2) {
+  right: 310px;
+  position: absolute;
+  top: 291px;
+}
+
+.img-flex-text img:nth-of-type(3) {
+  right: 573px;
+  position: absolute;
+  top: 261px;
+}
