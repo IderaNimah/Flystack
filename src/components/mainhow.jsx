@@ -7,19 +7,18 @@ function Mainhow() {
 
       <div className="img-flex">
         <div className="img-flex-img">
-          <img src="./public/assets/howitworks.png" alt=".." />
-          <img src="./public/assets/project.png" alt=".." />
-          <img src="./public/assets/status.png" alt=".." />
-          <img src="./public/assets/Heart.png" alt=".." />
-          <img src="./public/assets/Vector.png" alt=".." />
+          <img src="./assets/howitworks.png" alt=".." />
+          <img src="./assets/project.png" alt=".." />
+          <img src="./assets/status.png" alt=".." />
+          <img src="./assets/Heart.png" alt=".." />
+          <img src="./assets/Vector.png" alt=".." />
         </div>
         <div className="img-flex-text">
           <h1>Create a Project to get your security credentials</h1>
-          <img src="./public/assets/shapedone.png" alt="" />
-          <img src="./public/assets/shapedtwo.png" alt="" />
-          <img src="./public/assets/shapedthree.png" alt="" />
+          <img src="./assets/shapedone.png" alt="" />
+          <img src="./assets/shapedtwo.png" alt="" />
+          <img src="./assets/shapedthree.png" alt="" />
         </div>
-        
       </div>
     </div>
   );
