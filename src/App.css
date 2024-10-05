@@ -256,7 +256,7 @@ header {
   display: none;
   flex-direction: column; /* Stack the links vertically */
     position: absolute;
-    top: 60px;
+    top: 65px;
     right: 0;
     background-color: black; /* Adjust background for mobile */
     width: 100%; /* Full width */
@@ -267,6 +267,7 @@ header {
  /* When menu is open, display the nav links */
  .list ul.open {
   display: flex;
+  height: 100vh;
 }
 
 .list ul li {
@@ -281,4 +282,26 @@ header {
   button{
     display: none;
   }
+
+  .box{
+    height: 385px;
+    max-width: 444px;
+  }
+
+  .box img {
+    position: unset;
+        margin-top: 17px;
+        margin-left: 16px;
+        width: 92%;
+  }
+ .SubHero h1{
+  max-width: 100%;
+ }
+  .SubHero p {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 335px;
+    font-size: 23px;
+}
 }
