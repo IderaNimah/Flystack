@@ -21,7 +21,7 @@ function Header(){
     return(
       <header>
       <div className="logo">
-        <img src="./public/assets/Group 9.png" alt="logo" />
+        <img src="./assets/logo.png" alt="logo" />
       </div>
       <div className="list">
        <nav>
