@@ -19,7 +19,12 @@ header {
   max-width: 100%;
   margin: auto;
 }
-
+.hamburger {
+  display: none;
+}
+.hersection{
+  background-color: black;
+}
 .logo img {
   max-width: 165px;
 }
@@ -228,4 +233,52 @@ header {
   right: 573px;
   position: absolute;
   top: 261px;
+}
+
+/*  */
+.How{
+    background: white;
+    height: 100vh;
+    color: black;
+}
+
+
+/* Media query for screens 600px and below */
+@media (max-width: 600px) {
+ 
+ .box img{
+  position: unset;
+ }
+ .emoji{
+  position: unset;
+ }
+ .list ul {
+  display: none;
+  flex-direction: column; /* Stack the links vertically */
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: black; /* Adjust background for mobile */
+    width: 100%; /* Full width */
+    text-align: center; /* Center the nav items */
+ 
+}
+
+ /* When menu is open, display the nav links */
+ .list ul.open {
+  display: flex;
+}
+
+.list ul li {
+  margin: 20px 0; /* Space between mobile links */
+}
+.hamburger {
+  display: block; /* Show on mobile screens */
+  position: absolute;
+  right: 20px; /* Adjust the position as per your layout */
+  top: 20px;
+}
+  button{
+    display: none;
+  }
 }

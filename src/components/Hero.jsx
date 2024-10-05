@@ -5,16 +5,17 @@ function Hero(){
     
 
  return(
-    <>
+    < div className="herosection">
+    
     <div className="Hero">
          <div className="box">
-         </div>
          <img src="./assets/Hero.png" alt="Hero" />
      </div>
+         </div>
 
     {/* Emoji section */}
     <div className="emoji">
-        {/* Use the Emoji component and pass imageSrc and className as props */}
+        {/* Using the Emoji component and passing imageSrc and className as props */}
         <Emoji
           imageSrc="./assets/Emoji.png"
           imageAlt="Emoji 1"
@@ -65,7 +66,10 @@ function Hero(){
           className="emoji-image-emoji-9"
         />
       </div>
-         </>
+      
+         </div>
+         
+      
  )
 }
 
