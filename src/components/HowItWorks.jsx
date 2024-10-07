@@ -1,6 +1,7 @@
 import Header from "./Header";
 import Mainhow from "./mainhow";
 import SecHowItWorks from "./secHowItWorks";
+import ThirdHowItWorks from "./thirdHowItWorks";
 
 function HowItWorks() {
   return (
@@ -8,6 +9,7 @@ function HowItWorks() {
       <Header/>
       <Mainhow/>
       <SecHowItWorks/>
+      <ThirdHowItWorks/>
   </div>
   )
 }
