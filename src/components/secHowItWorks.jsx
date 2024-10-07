@@ -13,8 +13,8 @@ function SecHowItWorks (){
       <div className="sub-img-flex">
         <div className="sub-img-flex-img">
           <img src="./assets/devimage.png" alt=".." />
-          <img src="./assets/project.png" alt=".." />
-          <img src="./assets/status.png" alt=".." />
+          <img src="./assets/codesnippet.png" alt=".." />
+          <img src="./assets/tag.png" alt=".." />
           <img src="./assets/Heart.png" alt=".." />
           <img src="./assets/Vector.png" alt=".." />
         </div>
