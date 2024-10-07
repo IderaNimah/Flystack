@@ -4,6 +4,7 @@ import App from "./App.jsx";
 import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HowItWorks from "./components/HowItWorks.jsx";
+import WhyFly from "./components/WhyFly.jsx";
 
 const router = createBrowserRouter([
   {
@@ -17,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/whyfly",
-    element: <div>why fly</div>,
+    element:<WhyFly/>,
   },
 
 ]);
