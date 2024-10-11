@@ -20,7 +20,7 @@ header {
 .hamburger {
   display: none;
 }
-.hersection{
+.hersection {
   background-color: black;
 }
 .logo img {
@@ -63,7 +63,7 @@ header {
 
 /*  */
 
-.SubHero{
+.SubHero {
   background-color: black;
   height: 100vh;
 }
@@ -194,9 +194,9 @@ header {
 
 .img-flex-text h1 {
   max-width: 50%;
-    margin-left: 234px;
-    font-size: 41px;
-    margin-top: 60px;
+  margin-left: 234px;
+  font-size: 41px;
+  margin-top: 60px;
 }
 
 .img-flex-img img:nth-of-type(2) {
@@ -243,103 +243,100 @@ header {
 }
 
 /*  */
-.How{
-    background: white;
-    height: 100vh;
-    color: black;
+.How {
+  background: white;
+  height: 100vh;
+  color: black;
 }
-
 
 /* Media query for screens 600px and below */
 @media (max-width: 600px) {
- 
- .box img{
-  position: unset;
- }
- .emoji{
-  position: unset;
- }
- .list ul {
-  display: none;
-  flex-direction: column; /* Stack the links vertically */
+  .box img {
+    position: unset;
+  }
+  .emoji {
+    position: unset;
+  }
+  .list ul {
+    display: none;
+    flex-direction: column; /* Stack the links vertically */
     position: absolute;
     top: 65px;
     right: 0;
     background-color: black; /* Adjust background for mobile */
     width: 100%; /* Full width */
     text-align: center; /* Center the nav items */
- 
-}
+  }
 
- /* When menu is open, display the nav links */
- .list ul.open {
-  display: flex;
-  height: 100vh;
-}
+  /* When menu is open, display the nav links */
+  .list ul.open {
+    display: flex;
+    height: 100vh;
+  }
 
-.list ul li {
-  margin: 20px 0; /* Space between mobile links */
-}
-.hamburger {
-  display: block; /* Show on mobile screens */
-  position: absolute;
-  right: 20px; /* Adjust the position as per your layout */
-  top: 20px;
-}
-  button{
+  .list ul li {
+    margin: 20px 0; /* Space between mobile links */
+  }
+  .hamburger {
+    display: block; /* Show on mobile screens */
+    position: absolute;
+    right: 20px; /* Adjust the position as per your layout */
+    top: 20px;
+  }
+  button {
     display: none;
   }
 
-  .box{
+  .box {
     height: 385px;
     max-width: 444px;
   }
 
   .box img {
     position: unset;
-        margin-top: 17px;
-        margin-left: 16px;
-        width: 92%;
+    margin-top: 17px;
+    margin-left: 16px;
+    width: 92%;
   }
- .SubHero h1{
-  max-width: 100%;
-  font-size: 58px;
- }
+  .SubHero h1 {
+    max-width: 100%;
+    font-size: 58px;
+  }
   .SubHero p {
     text-align: center;
     margin: auto;
     margin-top: 20px;
     max-width: 335px;
     font-size: 23px;
-}
+  }
 }
 
 /*  */
-.subMainhow{
+.subMainhow {
   display: flex;
   position: relative;
 }
 
-.sub-img-flex-text h1{
-    max-width: 50%;
-    margin-left: 253px;
-    font-size: 40px;
-    margin-top: 60px;
+.sub-img-flex-text h1 {
+  max-width: 50%;
+  margin-left: 253px;
+  font-size: 40px;
+  margin-top: 60px;
 }
 
-.sub-img-flex-text img:nth-of-type(1){
+.sub-img-flex-text img:nth-of-type(1) {
   position: absolute;
   top: 260px;
   left: 242px;
 }
 
-.sub-img-flex-text img:nth-of-type(2){
+.sub-img-flex-text img:nth-of-type(2) {
   position: absolute;
-    top: -16px;
-    left: 365px;
+  top: -16px;
+  left: 365px;
 }
 
-.sub-img-flex-text img:nth-of-type(3){
+.sub-img-flex-text img:nth-of-type(3) {
   position: absolute;
   top: 320px;
   left: 549px;
@@ -347,159 +344,205 @@ header {
 
 /*  */
 
-.sub-img-flex-img img:nth-of-type(1){
- margin-right: 109px;
+.sub-img-flex-img img:nth-of-type(1) {
+  margin-right: 109px;
 }
-.sub-img-flex-img img:nth-of-type(2){
-    position: absolute;
-    top: 162px;
-    left: 880px;
-  }
-  .sub-img-flex-img img:nth-of-type(3){
-    position: absolute;
-    top: 99px;
-    left: 880px;
-  }
+.sub-img-flex-img img:nth-of-type(2) {
+  position: absolute;
+  top: 162px;
+  left: 880px;
+}
+.sub-img-flex-img img:nth-of-type(3) {
+  position: absolute;
+  top: 99px;
+  left: 880px;
+}
 
-  .sub-img-flex-img img:nth-of-type(4){
-    position: absolute;
-    top: 128px;
-    left: 1219px;
-  } 
-  .sub-img-flex-img img:nth-of-type(5){
-    position: absolute;
-    top: 296px;
-    left: 1219px;
-  }
+.sub-img-flex-img img:nth-of-type(4) {
+  position: absolute;
+  top: 128px;
+  left: 1219px;
+}
+.sub-img-flex-img img:nth-of-type(5) {
+  position: absolute;
+  top: 296px;
+  left: 1219px;
+}
 
 /*  */
-.thirdsubMain{
+.thirdsubMain {
   display: flex;
   justify-content: space-between;
   position: relative;
   margin-top: 147px;
 }
 
-.thirdsub-text img{
+.thirdsub-text img {
   margin-left: 240px;
 }
 
-.thirdsub-img{
+.thirdsub-img {
   margin-top: 100px;
   margin-left: 134px;
 }
 
-.thirdsub-img h1{
+.thirdsub-img h1 {
   font-size: 44px;
-    max-width: 80%;
+  max-width: 80%;
 }
 
-.subimg-flex-img img:nth-of-type(1){
+.subimg-flex-img img:nth-of-type(1) {
   position: absolute;
   top: 26px;
   right: 344px;
 }
 
-.subimg-flex-img img:nth-of-type(2){
+.subimg-flex-img img:nth-of-type(2) {
   position: absolute;
   top: 288px;
-    right: 460px;
+  right: 460px;
 }
 
-.subimg-flex-img img:nth-of-type(3){
+.subimg-flex-img img:nth-of-type(3) {
   position: absolute;
-    top: 359px;
-    right: 230px;
+  top: 359px;
+  right: 230px;
 }
 
 /*  */
-.why{
+.why {
   background-color: black;
   color: white;
   height: 100vh;
 }
-.head h1{
+.head h1 {
   text-align: center;
   margin-top: 100px;
   font-size: 45px;
 }
-.board{
+.board {
   margin-top: 60px;
   display: flex;
   justify-content: center;
- 
 }
 
-.suboard{
+.suboard {
   display: flex;
   flex-direction: column;
   gap: 21px;
   margin-left: 37px;
 }
 
-.board-one{
+.board-one {
   background-color: white;
   color: black;
   width: 390px;
   height: 458px;
-    border-radius: 31px;
-    margin-left: 232px;
+  border-radius: 31px;
+  margin-left: 232px;
 }
 
-.board-one img{
+.board-one img {
   margin-top: 13px;
-    width: 92%;
-    margin-left: 16px;
+  width: 92%;
+  margin-left: 16px;
 }
 
-.board-one h2{
+.board-one h2 {
   font-size: 30px;
-    width: 235px;
-    margin-top: 33px;
-    margin-left: 28px;
+  width: 235px;
+  margin-top: 33px;
+  margin-left: 28px;
 }
 
-.board-two{
-  background-color: #FAFF00;
+.board-two {
+  background-color: #faff00;
   color: black;
   max-width: 59%;
   height: 220px;
-    border-radius: 25px;
-    display: flex;
+  border-radius: 25px;
+  display: flex;
 }
 
-.board-two img{
+.board-two img {
   margin-top: 16px;
   margin-right: 20px;
   height: 86%;
 }
 
-.board-two h2{
+.board-two h2 {
   font-size: 31px;
   margin-top: 37px;
   margin-left: 18px;
 }
 
-.board-three{
-  background: #24FF00;
+.board-three {
+  background: #24ff00;
   color: black;
   max-width: 59%;
   height: 220px;
   border-radius: 25px;
   display: flex;
   flex-direction: row-reverse;
-
 }
 
-.board-three img{
+.board-three img {
   margin-top: 16px;
   margin-right: 20px;
   margin-left: 20px;
   height: 86%;
 }
 
-.board-three h2{
+.board-three h2 {
   font-size: 31px;
   margin-top: 60px;
 }
 
+/*  */
+.pter {
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+.pricehead h1 {
+  text-align: center;
+  margin-top: 100px;
+  font-size: 45px;
+}
+
+.pricing-board {
+  margin-top: 120px;
+  display: flex;
+  justify-content: center;
+  gap: 72px;
+}
+
+.pboard-one {
+  background-color: #f37453;
+  color: black;
+  height: 280px;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.pboard-one h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.pboard-two {
+  background-color: #ffffff;
+  color: black;
+  height: 280px;
+  width: 20%;
+  border-radius: 10px;
+}
+
+.pboard-two h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  text-align: center;
+  margin-top: 40px;
+}

@@ -5,6 +5,7 @@ import "./index.css";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HowItWorks from "./components/HowItWorks.jsx";
 import WhyFly from "./components/WhyFly.jsx";
+import Pricing from "./components/pricing.jsx";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,11 @@ const router = createBrowserRouter([
   {
     path: "/whyfly",
     element:<WhyFly/>,
+  },
+
+  {
+    path: "/pricing",
+    element:<Pricing/>,
   },
 
 ]);

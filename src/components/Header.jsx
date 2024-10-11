@@ -29,7 +29,7 @@ function Header(){
         <li><Link to="/">Home</Link></li>
         <li><Link to ="/HowItWorks">How it Works</Link></li>
         <li><Link to ="/whyfly">Why Flystack</Link></li>
-        <li><Link to ="/">Pricing</Link></li>
+        <li><Link to ="/Pricing">Pricing</Link></li>
         <li><Link to ="/">Faq</Link></li>
       </ul>
 
