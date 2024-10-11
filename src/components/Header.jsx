@@ -30,7 +30,7 @@ function Header(){
         <li><Link to ="/HowItWorks">How it Works</Link></li>
         <li><Link to ="/whyfly">Why Flystack</Link></li>
         <li><Link to ="/Pricing">Pricing</Link></li>
-        <li><Link to ="/">Faq</Link></li>
+        <li><Link to ="/Faq">Faq</Link></li>
       </ul>
 
       <div className="hamburger" onClick={toggleMenu}>

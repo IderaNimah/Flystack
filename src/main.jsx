@@ -6,6 +6,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import HowItWorks from "./components/HowItWorks.jsx";
 import WhyFly from "./components/WhyFly.jsx";
 import Pricing from "./components/pricing.jsx";
+import Faq from "./components/Faq.jsx";
 
 const router = createBrowserRouter([
   {
@@ -26,7 +27,10 @@ const router = createBrowserRouter([
     path: "/pricing",
     element:<Pricing/>,
   },
-
+  {
+    path: "/faq",
+    element:<Faq/>,
+  },
 ]);
 
 createRoot(document.getElementById("root")).render(
